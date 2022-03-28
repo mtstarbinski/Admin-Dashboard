@@ -10,11 +10,11 @@ export const LineChartWrapper = styled.div`
   grid-column: 1 / 3;
   grid-row: 4;
   max-height: 400px;
+  min-width: 200px;
 
   @media screen and (max-width: 1375px) {
     grid-row: 5;
     grid-column: 1;
-    min-width: 100px;
   }
 
   hr {
@@ -29,6 +29,10 @@ export const LineChartWrapper = styled.div`
     margin: 0 0 15px 0;
     font-size: 24px;
     font-weight: 400;
+
+    @media screen and (max-width: 680px) {
+    font-size: 20px;
+  }
   }
 `;
 

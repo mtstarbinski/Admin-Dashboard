@@ -7,16 +7,16 @@ export const TableContainer = styled.div`
   border: 1px solid #d1d1d1;
   box-shadow: 0px 0px 20px -10px;
   grid-column: 3 / end;
-    grid-row: 4;
+  grid-row: 4;
+  min-width: 100px;
 
   @media screen and (max-width: 1375px) {
     grid-row: 4;
     grid-column: 1;
-    min-width: 100px;
   }
 
   @media screen and (max-width: 680px) {
-    font-size: small;
+    font-size: 11px;
   }
 
   hr {
@@ -33,6 +33,10 @@ export const TableContainer = styled.div`
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 680px) {
+    font-size: 20px;
+  }
   }
 
   svg {

@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 export const Page = styled.div`
   display: flex;
   min-height: 100vh;
+  overflow-x: hidden;
 `;
 
 export const Nav = styled.nav`
-  height: 100%;
+  height: 100vh;
   min-width: 65px;
   background-color: #12173a;
   position: fixed;

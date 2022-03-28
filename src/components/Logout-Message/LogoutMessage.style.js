@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LogoutMessageContainer = styled.div`
   position: fixed;
   height: 100vh;
-  width: calc(100vw + 65px);
+  width: 100vw;
   backdrop-filter: blur(5px);
   top: 0;
   right: 0;
@@ -15,6 +15,7 @@ export const LogoutMessageContainer = styled.div`
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  background-color: #ffffff78;
 `;
 
 export const Message = styled.div`

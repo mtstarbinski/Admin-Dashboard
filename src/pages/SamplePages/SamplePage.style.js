@@ -6,6 +6,16 @@ export const SamplePageContainer = styled.div`
   height: 100%;
   margin-left: 65px;
 
+  @media screen and (max-width: 1375px) {
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+  }
+
+  @media screen and (max-width: 680px) {
+    padding: 10px;
+    text-align: center;
+  }
+
   h1 {
     grid-column: 1 / end;
     height: fit-content;

@@ -16,6 +16,7 @@ export const OverviewContainer = styled.div`
 
   @media screen and (max-width: 680px) {
     padding: 10px;
+    text-align: center;
   }
 
   h1 {
@@ -23,7 +24,6 @@ export const OverviewContainer = styled.div`
     height: fit-content;
     margin: 5px 0 0 0;
     font-size: 30px;
-    justify-self: start;
   }
 `;
 
