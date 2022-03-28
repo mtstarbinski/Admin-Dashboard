@@ -12,24 +12,21 @@ export const CardContainer = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
 
   @media screen and (max-width: 1375px) {
-    min-height: 90px;
-  }
-
-  @media screen and (max-width: 680px) {
-    width: 255px;
+    min-height: 100px;
+    min-width: 140px;
   }
 
   p {
     color: grey;
     margin: 0;
+    font-size: 1rem;
   }
 
   h2 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: ${({ gain }) => (gain ? "#00bb00" : "black")};
   }
 `;

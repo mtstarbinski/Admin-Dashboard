@@ -11,6 +11,20 @@ export const TableContainer = styled.div`
   min-width: 100px;
 
   @media screen and (max-width: 1375px) {
+    grid-row: 3;
+    grid-column: 3 / end;
+  }
+
+  @media screen and (max-width: 1250px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 1190px) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  @media screen and (max-width: 1050px) {
     grid-row: 4;
     grid-column: 1;
   }

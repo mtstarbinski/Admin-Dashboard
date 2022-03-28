@@ -9,7 +9,11 @@ export const OverviewContainer = styled.div`
   margin: 0 0 0 65px;
   width: 100%;
 
-  @media screen and (max-width: 1375px) {
+  @media screen and (max-width: 1190px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 1050px) {
     grid-template-columns: 1fr;
     gap: 20px 0;
   }
@@ -38,8 +42,15 @@ export const RetentionContainer = styled.div`
     flex-direction: row;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 1190px) {
+    width: 100%;
+    justify-content: center;
+  }
+
   @media screen and (max-width: 1000px) {
     flex-direction: column;
+    align-items: center;
   }
   
   
@@ -59,6 +70,7 @@ export const StatCardContainer = styled.div`
   }
   @media screen and (max-width: 680px) {
     flex-direction: column;
+    width: 100%;
   }
 
 `;

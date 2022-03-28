@@ -7,17 +7,25 @@ export const ChartWrapper = styled.div`
   border-radius: 1em;
   border: 1px solid #d1d1d1;
   box-shadow: 0px 0px 20px -10px;
-  max-width: 515px;
-  min-width: 100px;
+  
 
   @media screen and (max-width: 1375px) {
-    width: 100%;
-    margin: 0 auto;
+    width: 300px;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    width: 75%;
+    
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 1000px) {
+    width: 94%;
+    
+  }
+
+  @media screen and (max-width: 850px) {
     width: 84%;
-    margin: 0 auto;
+    
   }
 
   hr {

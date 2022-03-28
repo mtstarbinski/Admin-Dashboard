@@ -13,6 +13,15 @@ export const BarChartWrapper = styled.div`
   min-width: 200px;
 
   @media screen and (max-width: 1375px) {
+    grid-row: 2;
+  }
+
+  @media screen and (max-width: 1190px) {
+    grid-row: 3;
+    grid-column: 1 / 3;
+  }
+
+  @media screen and (max-width: 1050px) {
     grid-row: 3;
     grid-column: 1;
   }

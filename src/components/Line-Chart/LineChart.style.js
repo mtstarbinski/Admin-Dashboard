@@ -9,10 +9,19 @@ export const LineChartWrapper = styled.div`
   box-shadow: 0px 0px 20px -10px;
   grid-column: 1 / 3;
   grid-row: 4;
-  max-height: 400px;
   min-width: 200px;
 
   @media screen and (max-width: 1375px) {
+    grid-row: 3;
+    grid-column: 1 / 3;
+  }
+
+  @media screen and (max-width: 1190px) {
+    grid-row: 4;
+    grid-column: 1 / 3;
+  }
+
+  @media screen and (max-width: 1050px) {
     grid-row: 5;
     grid-column: 1;
   }
